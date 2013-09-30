@@ -3,7 +3,7 @@ pysam
 
 Slightly modified version of pysam 0.7.1 -- it contains 2 small changes:
 
-1. I've included "DS" tag in the "PG" entry of the header:
+1. I've included "DS" tag in the "PG" entry of the header in pysam-0.7.1/pysam/csamtools.pyx:
 
 <pre>
 VALID_HEADER_FIELDS = { "HD" : { "VN" : str, "SO" : str, "GO" : str },
